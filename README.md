@@ -8,7 +8,8 @@ inside of the --chars string and make sure special characters are present in
 the font itself, open "font_showcase_reg.html" to check which fonts support 
 them.
 
-Here's a good example of a shader demostyle with added FontyMon titles to it:
+Here's a good example of a demo style shader I put together with the added 
+FontyMon titles:
 
 https://www.shadertoy.com/view/7cfSzf<br>
 
