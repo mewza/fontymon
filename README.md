@@ -8,8 +8,11 @@ inside of the --chars string and make sure special characters are present in
 the font itself, open "font_showcase_reg.html" to check which fonts support 
 them.
 
-Examples produced ShaderToy/GLSL code by the fontmymon.py script are available:
-Here's a good example of a shader demostyle with added FontyMon titles to it.
+Here's a good example of a shader demostyle with added FontyMon titles to it:
+
+https://www.shadertoy.com/view/7cfSzf<br>
+
+and other examples of capabilities of the fontymon.py script:
 
 https://www.shadertoy.com/view/scsSRM<br>
 https://www.shadertoy.com/view/scsSRN<br>
