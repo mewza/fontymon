@@ -1,5 +1,5 @@
 FontyMon v2.2 - A vector TTF/WOFF font converter into ShaderToy/GLSL with splines
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 FontyMon's GitHub home: https://github.com/mewza/fontymon
 
