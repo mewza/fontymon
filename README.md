@@ -44,7 +44,7 @@ Email: subband@gmail.com or
 
 Donations accepted via PayPal: subband@protonmail.com
 
-I am not rich monetarily (honest, and as of today yet at least) and would appreciate a donation of any amount you can
+I am not rich monetarily (honest, and as of today yet at least, and if you somehow think that I got very rich from Winamp, how wrong you are, I actually paid with 25 years of suffering struggling for my life as a result of that) and would appreciate a donation of any amount you can
 afford if you feel like supporting me and this project, I spent my own money and time making this perfect
 for you! Big THANK YOU from me if you decide to do so, but if not, enjoy using it anyway.
 
