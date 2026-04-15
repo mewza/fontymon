@@ -8,7 +8,7 @@ inside of the --chars string and make sure special characters are present in
 the font itself, open "font_showcase_reg.html" to check which fonts support 
 them.
 
-Example produced ShaderToy/GLSL by fontmymon.py script are available here:
+Examples produced ShaderToy/GLSL code by the fontmymon.py script are available:
 https://www.shadertoy.com/view/scsSRM<br>
 https://www.shadertoy.com/view/scsSRN<br>
 https://www.shadertoy.com/view/fcsSRj<br>
