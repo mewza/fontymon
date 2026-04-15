@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FontsForWeb — ® Detection</title>
+<style>
+@font-face{font-family:"f38";src:url("https://fontsforweb.com/fonts/38/mishmash.woff")format("woff")}
+@font-face{font-family:"f39";src:url("https://fontsforweb.com/fonts/39/mima4x4o.woff")format("woff")}
+@font-face{font-family:"f40";src:url("https://fontsforweb.com/fonts/40/mimaalt1.woff")format("woff")}
+@font-face{font-family:"f41";src:url("https://fontsforweb.com/fonts/41/mimafuse.woff")format("woff")}
+@font-face{font-family:"f42";src:url("https://fontsforweb.com/fonts/42/mima4x4i.woff")format("woff")}
+@font-face{font-family:"f43";src:url("https://fontsforweb.com/fonts/43/mimaalt2.woff")format("woff")}
+@font-face{font-family:"f44";src:url("https://fontsforweb.com/fonts/44/bandmess.woff")format("woff")}
+@font-face{font-family:"f45";src:url("https://fontsforweb.com/fonts/45/bandwdth.woff")format("woff")}
+@font-face{font-family:"f46";src:url("https://fontsforweb.com/fonts/46/bandless.woff")format("woff")}
+@font-face{font-family:"f47";src:url("https://fontsforweb.com/fonts/47/techover.woff")format("woff")}
+@font-face{font-family:"f48";src:url("https://fontsforweb.com/fonts/48/MetroSlumJkt002erc2006.woff")format("woff")}
+@font-face{font-family:"f49";src:url("https://fontsforweb.com/fonts/49/DustDemonBold.woff")format("woff")}
+@font-face{font-family:"f50";src:url("https://fontsforweb.com/fonts/50/syntheti.woff")format("woff")}
+@font-face{font-family:"f51";src:url("https://fontsforweb.com/fonts/51/Tragic2.woff")format("woff")}
+@font-face{font-family:"f52";src:url("https://fontsforweb.com/fonts/52/PROJECTS.woff")format("woff")}
+@font-face{font-family:"f53";src:url("https://fontsforweb.com/fonts/53/ViolentAlligatorerc2007.woff")format("woff")}
+@font-face{font-family:"f54";src:url("https://fontsforweb.com/fonts/54/LOWRBI.woff")format("woff")}
+@font-face{font-family:"f55";src:url("https://fontsforweb.com/fonts/55/LOWRB.woff")format("woff")}
+@font-face{font-family:"f56";src:url("https://fontsforweb.com/fonts/56/jeopardt.woff")format("woff")}
+@font-face{font-family:"f57";src:url("https://fontsforweb.com/fonts/57/jeopardi.woff")format("woff")}
+@font-face{font-family:"f58";src:url("https://fontsforweb.com/fonts/58/bitwise.woff")format("woff")}
+@font-face{font-family:"f59";src:url("https://fontsforweb.com/fonts/59/7days.woff")format("woff")}
+@font-face{font-family:"f60";src:url("https://fontsforweb.com/fonts/60/7daysfatoblique.woff")format("woff")}
+@font-face{font-family:"f61";src:url("https://fontsforweb.com/fonts/61/7daysfatrotated.woff")format("woff")}
+@font-face{font-family:"f62";src:url("https://fontsforweb.com/fonts/62/7daysoblique.woff")format("woff")}
+@font-face{font-family:"f63";src:url("https://fontsforweb.com/fonts/63/7DAYSFAT.woff")format("woff")}
+@font-face{font-family:"f64";src:url("https://fontsforweb.com/fonts/64/7daysrotated.woff")format("woff")}
+@font-face{font-family:"f65";src:url("https://fontsforweb.com/fonts/65/Bob.woff")format("woff")}
+@font-face{font-family:"f66";src:url("https://fontsforweb.com/fonts/66/telephas.woff")format("woff")}
+@font-face{font-family:"f67";src:url("https://fontsforweb.com/fonts/67/wager.woff")format("woff")}
+@font-face{font-family:"f68";src:url("https://fontsforweb.com/fonts/68/wagerwon.woff")format("woff")}
+@font-face{font-family:"f69";src:url("https://fontsforweb.com/fonts/69/wagerlos.woff")format("woff")}
+@font-face{font-family:"f70";src:url("https://fontsforweb.com/fonts/70/DustHomeManMedium.woff")format("woff")}
+@font-face{font-family:"f71";src:url("https://fontsforweb.com/fonts/71/techniqu.woff")format("woff")}
+@font-face{font-family:"f72";src:url("https://fontsforweb.com/fonts/72/techniqo.woff")format("woff")}
+@font-face{font-family:"f73";src:url("https://fontsforweb.com/fonts/73/Doppler.woff")format("woff")}
+@font-face{font-family:"f74";src:url("https://fontsforweb.com/fonts/74/underwhe.woff")format("woff")}
+@font-face{font-family:"f75";src:url("https://fontsforweb.com/fonts/75/underwho.woff")format("woff")}
+@font-face{font-family:"f76";src:url("https://fontsforweb.com/fonts/76/dynamic.woff")format("woff")}
+@font-face{font-family:"f77";src:url("https://fontsforweb.com/fonts/77/SPOREDOM.woff")format("woff")}
+@font-face{font-family:"f78";src:url("https://fontsforweb.com/fonts/78/NUWAB.woff")format("woff")}
+@font-face{font-family:"f79";src:url("https://fontsforweb.com/fonts/79/vanhelsing.woff")format("woff")}
+@font-face{font-family:"f80";src:url("https://fontsforweb.com/fonts/80/gyroresh.woff")format("woff")}
+@font-face{font-family:"f81";src:url("https://fontsforweb.com/fonts/81/gyrose.woff")format("woff")}
+@font-face{font-family:"f82";src:url("https://fontsforweb.com/fonts/82/gyrosesq.woff")format("woff")}
+@font-face{font-family:"f83";src:url("https://fontsforweb.com/fonts/83/vigilanc.woff")format("woff")}
+@font-face{font-family:"f84";src:url("https://fontsforweb.com/fonts/84/encappln.woff")format("woff")}
+@font-face{font-family:"f85";src:url("https://fontsforweb.com/fonts/85/encapsul.woff")format("woff")}
+@font-face{font-family:"f86";src:url("https://fontsforweb.com/fonts/86/unanimo.woff")format("woff")}
+@font-face{font-family:"f87";src:url("https://fontsforweb.com/fonts/87/unanimoi.woff")format("woff")}
+@font-face{font-family:"f88";src:url("https://fontsforweb.com/fonts/88/construktiv.woff")format("woff")}
+@font-face{font-family:"f89";src:url("https://fontsforweb.com/fonts/89/jawbrko2.woff")format("woff")}
+@font-face{font-family:"f90";src:url("https://fontsforweb.com/fonts/90/jawbreak.woff")format("woff")}
+@font-face{font-family:"f91";src:url("https://fontsforweb.com/fonts/91/jawbhard.woff")format("woff")}
+@font-face{font-family:"f92";src:url("https://fontsforweb.com/fonts/92/jawbrko1.woff")format("woff")}
+@font-face{font-family:"f93";src:url("https://fontsforweb.com/fonts/93/chumbly.woff")format("woff")}
+@font-face{font-family:"f94";src:url("https://fontsforweb.com/fonts/94/yourcomp.woff")format("woff")}
+@font-face{font-family:"f95";src:url("https://fontsforweb.com/fonts/95/urcompo.woff")format("woff")}
+@font-face{font-family:"f96";src:url("https://fontsforweb.com/fonts/96/urcompi.woff")format("woff")}
+@font-face{font-family:"f97";src:url("https://fontsforweb.com/fonts/97/bumped.woff")format("woff")}
+@font-face{font-family:"f98";src:url("https://fontsforweb.com/fonts/98/undrscr2.woff")format("woff")}
+@font-face{font-family:"f99";src:url("https://fontsforweb.com/fonts/99/underscr.woff")format("woff")}
+@font-face{font-family:"f100";src:url("https://fontsforweb.com/fonts/100/18holes.woff")format("woff")}
+@font-face{font-family:"f101";src:url("https://fontsforweb.com/fonts/101/dblayer4.woff")format("woff")}
+@font-face{font-family:"f102";src:url("https://fontsforweb.com/fonts/102/dblayer1.woff")format("woff")}
+@font-face{font-family:"f103";src:url("https://fontsforweb.com/fonts/103/dblbogey.woff")format("woff")}
+@font-face{font-family:"f104";src:url("https://fontsforweb.com/fonts/104/dblayer3.woff")format("woff")}
+@font-face{font-family:"f105";src:url("https://fontsforweb.com/fonts/105/dblayer2.woff")format("woff")}
+@font-face{font-family:"f106";src:url("https://fontsforweb.com/fonts/106/Shift.woff")format("woff")}
+@font-face{font-family:"f107";src:url("https://fontsforweb.com/fonts/107/CopyCat.woff")format("woff")}
+@font-face{font-family:"f108";src:url("https://fontsforweb.com/fonts/108/syndrome.woff")format("woff")}
+@font-face{font-family:"f109";src:url("https://fontsforweb.com/fonts/109/whatever.woff")format("woff")}
+@font-face{font-family:"f110";src:url("https://fontsforweb.com/fonts/110/graze.woff")format("woff")}
+@font-face{font-family:"f111";src:url("https://fontsforweb.com/fonts/111/galapogo.woff")format("woff")}
+@font-face{font-family:"f112";src:url("https://fontsforweb.com/fonts/112/reasonsh.woff")format("woff")}
+@font-face{font-family:"f113";src:url("https://fontsforweb.com/fonts/113/reason.woff")format("woff")}
+@font-face{font-family:"f114";src:url("https://fontsforweb.com/fonts/114/freaktur.woff")format("woff")}
+@font-face{font-family:"f115";src:url("https://fontsforweb.com/fonts/115/FOTOF.woff")format("woff")}
+@font-face{font-family:"f116";src:url("https://fontsforweb.com/fonts/116/pseudo.woff")format("woff")}
+@font-face{font-family:"f117";src:url("https://fontsforweb.com/fonts/117/tsextols.woff")format("woff")}
+@font-face{font-family:"f118";src:url("https://fontsforweb.com/fonts/118/tsextolo.woff")format("woff")}
+@font-face{font-family:"f119";src:url("https://fontsforweb.com/fonts/119/DustHomeMedium.woff")format("woff")}
+@font-face{font-family:"f120";src:url("https://fontsforweb.com/fonts/120/3dlet.woff")format("woff")}
+@font-face{font-family:"f121";src:url("https://fontsforweb.com/fonts/121/crkdownr.woff")format("woff")}
+@font-face{font-family:"f122";src:url("https://fontsforweb.com/fonts/122/crkdwno2.woff")format("woff")}
+@font-face{font-family:"f123";src:url("https://fontsforweb.com/fonts/123/crackdr2.woff")format("woff")}
+@font-face{font-family:"f124";src:url("https://fontsforweb.com/fonts/124/crkdwno1.woff")format("woff")}
+@font-face{font-family:"f125";src:url("https://fontsforweb.com/fonts/125/rockprp.woff")format("woff")}
+@font-face{font-family:"f126";src:url("https://fontsforweb.com/fonts/126/konecto1.woff")format("woff")}
+@font-face{font-family:"f127";src:url("https://fontsforweb.com/fonts/127/konecto2.woff")format("woff")}
+@font-face{font-family:"f128";src:url("https://fontsforweb.com/fonts/128/konector.woff")format("woff")}
+@font-face{font-family:"f129";src:url("https://fontsforweb.com/fonts/129/koneerie.woff")format("woff")}
+@font-face{font-family:"f130";src:url("https://fontsforweb.com/fonts/130/sequence.woff")format("woff")}
+@font-face{font-family:"f131";src:url("https://fontsforweb.com/fonts/131/Zone99left.woff")format("woff")}
+@font-face{font-family:"f132";src:url("https://fontsforweb.com/fonts/132/Zone99.woff")format("woff")}
+@font-face{font-family:"f133";src:url("https://fontsforweb.com/fonts/133/Zone99heavy.woff")format("woff")}
+@font-face{font-family:"f134";src:url("https://fontsforweb.com/fonts/134/nominal.woff")format("woff")}
+@font-face{font-family:"f135";src:url("https://fontsforweb.com/fonts/135/Lakmus.woff")format("woff")}
+@font-face{font-family:"f136";src:url("https://fontsforweb.com/fonts/136/ccapshad.woff")format("woff")}
+@font-face{font-family:"f137";src:url("https://fontsforweb.com/fonts/137/ccaps.woff")format("woff")}
+@font-face{font-family:"f138";src:url("https://fontsforweb.com/fonts/138/Phino.woff")format("woff")}
+@font-face{font-family:"f139";src:url("https://fontsforweb.com/fonts/139/blutter.woff")format("woff")}
+@font-face{font-family:"f140";src:url("https://fontsforweb.com/fonts/140/zoetrope.woff")format("woff")}
+@font-face{font-family:"f141";src:url("https://fontsforweb.com/fonts/141/detonate.woff")format("woff")}
+@font-face{font-family:"f142";src:url("https://fontsforweb.com/fonts/142/DustDotmanBold.woff")format("woff")}
+@font-face{font-family:"f143";src:url("https://fontsforweb.com/fonts/143/yearend.woff")format("woff")}
+@font-face{font-family:"f144";src:url("https://fontsforweb.com/fonts/144/granular.woff")format("woff")}
+@font-face{font-family:"f145";src:url("https://fontsforweb.com/fonts/145/Molecular.woff")format("woff")}
+@font-face{font-family:"f146";src:url("https://fontsforweb.com/fonts/146/sirquitry.woff")format("woff")}
+@font-face{font-family:"f147";src:url("https://fontsforweb.com/fonts/147/SLIDFISS.woff")format("woff")}
+@font-face{font-family:"f148";src:url("https://fontsforweb.com/fonts/148/SLIDFISK.woff")format("woff")}
+@font-face{font-family:"f149";src:url("https://fontsforweb.com/fonts/149/Slidfis.woff")format("woff")}
+@font-face{font-family:"f150";src:url("https://fontsforweb.com/fonts/150/Transmaidens.woff")format("woff")}
+@font-face{font-family:"f151";src:url("https://fontsforweb.com/fonts/151/kinkimono.woff")format("woff")}
+@font-face{font-family:"f152";src:url("https://fontsforweb.com/fonts/152/bloktilt.woff")format("woff")}
+@font-face{font-family:"f153";src:url("https://fontsforweb.com/fonts/153/revert.woff")format("woff")}
+@font-face{font-family:"f154";src:url("https://fontsforweb.com/fonts/154/revertro.woff")format("woff")}
+@font-face{font-family:"f155";src:url("https://fontsforweb.com/fonts/155/kickflip.woff")format("woff")}
+@font-face{font-family:"f156";src:url("https://fontsforweb.com/fonts/156/ActionForce.woff")format("woff")}
+@font-face{font-family:"f157";src:url("https://fontsforweb.com/fonts/157/rotund.woff")format("woff")}
+@font-face{font-family:"f158";src:url("https://fontsforweb.com/fonts/158/rotundo.woff")format("woff")}
+@font-face{font-family:"f159";src:url("https://fontsforweb.com/fonts/159/PixelNoiseerc2007.woff")format("woff")}
+@font-face{font-family:"f160";src:url("https://fontsforweb.com/fonts/160/Spinach.woff")format("woff")}
+@font-face{font-family:"f161";src:url("https://fontsforweb.com/fonts/161/YEARR.woff")format("woff")}
+@font-face{font-family:"f162";src:url("https://fontsforweb.com/fonts/162/yesterda.woff")format("woff")}
+@font-face{font-family:"f163";src:url("https://fontsforweb.com/fonts/163/base6.woff")format("woff")}
+@font-face{font-family:"f164";src:url("https://fontsforweb.com/fonts/164/base5.woff")format("woff")}
+@font-face{font-family:"f165";src:url("https://fontsforweb.com/fonts/165/base4.woff")format("woff")}
+@font-face{font-family:"f166";src:url("https://fontsforweb.com/fonts/166/LETTERS.woff")format("woff")}
+@font-face{font-family:"f167";src:url("https://fontsforweb.com/fonts/167/LETTIF.woff")format("woff")}
+@font-face{font-family:"f168";src:url("https://fontsforweb.com/fonts/168/Futured.woff")format("woff")}
+@font-face{font-family:"f169";src:url("https://fontsforweb.com/fonts/169/vertigo.woff")format("woff")}
+@font-face{font-family:"f170";src:url("https://fontsforweb.com/fonts/170/vertigo2.woff")format("woff")}
+@font-face{font-family:"f171";src:url("https://fontsforweb.com/fonts/171/PLEXB.woff")format("woff")}
+@font-face{font-family:"f172";src:url("https://fontsforweb.com/fonts/172/nsecthin.woff")format("woff")}
+@font-face{font-family:"f173";src:url("https://fontsforweb.com/fonts/173/nanosecw.woff")format("woff")}
+@font-face{font-family:"f174";src:url("https://fontsforweb.com/fonts/174/nsecthck.woff")format("woff")}
+@font-face{font-family:"f175";src:url("https://fontsforweb.com/fonts/175/VENTA.woff")format("woff")}
+@font-face{font-family:"f177";src:url("https://fontsforweb.com/fonts/177/opiated.woff")format("woff")}
+@font-face{font-family:"f1097";src:url("https://fontsforweb.com/fonts/1097/CircleDFontbyCrazyForMusic.woff")format("woff")}
+@font-face{font-family:"f1422";src:url("https://fontsforweb.com/fonts/1422/FranchiseBold.woff")format("woff")}
+@font-face{font-family:"f3453";src:url("https://fontsforweb.com/fonts/3453/xIAtSaglM8LZOYdGmG1JqQ.woff")format("woff")}
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#111;color:#eee;font-family:sans-serif;padding:28px 18px}
+h1{text-align:center;font-size:.9rem;color:#555;margin-bottom:16px;letter-spacing:3px;text-transform:uppercase}
+.toolbar{display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:22px;flex-wrap:wrap}
+.btn{background:#1e1e1e;border:1px solid #333;color:#aaa;padding:6px 16px;border-radius:20px;cursor:pointer;font-size:.75rem;letter-spacing:1px;transition:all .15s}
+.btn:hover{border-color:#555;color:#eee}
+.btn.active{background:#1a1a2e;border-color:#5540a0;color:#b090ff}
+.stats{font-size:.72rem;color:#444;letter-spacing:1px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.card{background:#181818;border:1px solid #222;border-radius:8px;padding:16px 14px 10px;display:flex;flex-direction:column;gap:8px;transition:border-color .15s;position:relative}
+.card:hover{border-color:#3a3a3a}
+.card[data-reg="yes"]{border-left:3px solid #2a7a3a}
+.card[data-reg="no"]{border-left:3px solid #3a2020}
+.card[data-reg="checking"]{border-left:3px solid #2a2a2a}
+.preview{font-size:1.9rem;line-height:1.25;color:#fff;word-break:break-word}
+.url{font-size:.68rem;color:#4a6a8a;text-decoration:none;word-break:break-all;line-height:1.4;border-top:1px solid #1e1e1e;padding-top:8px}
+.url:hover{color:#7ab0d8;text-decoration:underline}
+.badge{display:inline-flex;align-items:center;gap:4px;font-size:.65rem;font-family:monospace;padding:2px 7px;border-radius:10px;letter-spacing:.5px;font-weight:700;margin-left:4px;vertical-align:middle}
+.badge-yes{background:#0d2e14;color:#4eca6a;border:1px solid #1a5028}
+.badge-no{background:#2a0e0e;color:#c44;border:1px solid #4a1a1a}
+.badge-checking{background:#1a1a1a;color:#555;border:1px solid #2a2a2a;animation:pulse 1.2s infinite}
+.badge-err{background:#1a1a00;color:#886;border:1px solid #443}
+.reg-preview{font-size:1.4rem;color:#4eca6a;margin-top:2px;min-height:1.6rem}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<h1>fontsforweb · 103 fonts · ® glyph detection</h1>
+<div class="toolbar">
+  <button class="btn active" onclick="filter('all')">All <span id="cnt-all">103</span></button>
+  <button class="btn" onclick="filter('yes')">Has ® <span id="cnt-yes">…</span></button>
+  <button class="btn" onclick="filter('no')">No ® <span id="cnt-no">…</span></button>
+  <span class="stats" id="progress">Checking fonts…</span>
+</div>
+<div class="grid" id="grid">
+<div class="card" data-font="f38" data-reg="checking"><div class="preview" style="font-family:'f38',sans-serif">Mishmash BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f38',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/38/mishmash.woff" target="_blank">mishmash.woff</a></div>
+<div class="card" data-font="f39" data-reg="checking"><div class="preview" style="font-family:'f39',sans-serif">Mishmash 4x4o BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f39',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/39/mima4x4o.woff" target="_blank">mima4x4o.woff</a></div>
+<div class="card" data-font="f40" data-reg="checking"><div class="preview" style="font-family:'f40',sans-serif">Mishmash ALT1 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f40',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/40/mimaalt1.woff" target="_blank">mimaalt1.woff</a></div>
+<div class="card" data-font="f41" data-reg="checking"><div class="preview" style="font-family:'f41',sans-serif">Mishmash Fuse BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f41',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/41/mimafuse.woff" target="_blank">mimafuse.woff</a></div>
+<div class="card" data-font="f42" data-reg="checking"><div class="preview" style="font-family:'f42',sans-serif">Mishmash 4x4i BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f42',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/42/mima4x4i.woff" target="_blank">mima4x4i.woff</a></div>
+<div class="card" data-font="f43" data-reg="checking"><div class="preview" style="font-family:'f43',sans-serif">Mishmash ALT2 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f43',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/43/mimaalt2.woff" target="_blank">mimaalt2.woff</a></div>
+<div class="card" data-font="f44" data-reg="checking"><div class="preview" style="font-family:'f44',sans-serif">Bandwidth Bandmess BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f44',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/44/bandmess.woff" target="_blank">bandmess.woff</a></div>
+<div class="card" data-font="f45" data-reg="checking"><div class="preview" style="font-family:'f45',sans-serif">Bandwidth BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f45',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/45/bandwdth.woff" target="_blank">bandwdth.woff</a></div>
+<div class="card" data-font="f46" data-reg="checking"><div class="preview" style="font-family:'f46',sans-serif">Bandwidth Bandless BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f46',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/46/bandless.woff" target="_blank">bandless.woff</a></div>
+<div class="card" data-font="f47" data-reg="checking"><div class="preview" style="font-family:'f47',sans-serif">techno overload BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f47',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/47/techover.woff" target="_blank">techover.woff</a></div>
+<div class="card" data-font="f48" data-reg="checking"><div class="preview" style="font-family:'f48',sans-serif">MetroSlum <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f48',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/48/MetroSlumJkt002erc2006.woff" target="_blank">MetroSlumJkt002erc2006.woff</a></div>
+<div class="card" data-font="f49" data-reg="checking"><div class="preview" style="font-family:'f49',sans-serif">DustDemon Bold <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f49',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/49/DustDemonBold.woff" target="_blank">DustDemonBold.woff</a></div>
+<div class="card" data-font="f50" data-reg="checking"><div class="preview" style="font-family:'f50',sans-serif">Synthetic BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f50',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/50/syntheti.woff" target="_blank">syntheti.woff</a></div>
+<div class="card" data-font="f51" data-reg="checking"><div class="preview" style="font-family:'f51',sans-serif">TRAGIC BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f51',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/51/Tragic2.woff" target="_blank">Tragic2.woff</a></div>
+<div class="card" data-font="f52" data-reg="checking"><div class="preview" style="font-family:'f52',sans-serif">projects fenotype <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f52',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/52/PROJECTS.woff" target="_blank">PROJECTS.woff</a></div>
+<div class="card" data-font="f53" data-reg="checking"><div class="preview" style="font-family:'f53',sans-serif">Violent Alligator <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f53',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/53/ViolentAlligatorerc2007.woff" target="_blank">ViolentAlligatorerc2007.woff</a></div>
+<div class="card" data-font="f54" data-reg="checking"><div class="preview" style="font-family:'f54',sans-serif">LowRider BB Italic <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f54',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/54/LOWRBI.woff" target="_blank">LOWRBI.woff</a></div>
+<div class="card" data-font="f55" data-reg="checking"><div class="preview" style="font-family:'f55',sans-serif">LowRider BB <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f55',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/55/LOWRB.woff" target="_blank">LOWRB.woff</a></div>
+<div class="card" data-font="f56" data-reg="checking"><div class="preview" style="font-family:'f56',sans-serif">Jeopardize Thick BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f56',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/56/jeopardt.woff" target="_blank">jeopardt.woff</a></div>
+<div class="card" data-font="f57" data-reg="checking"><div class="preview" style="font-family:'f57',sans-serif">Jeopardize BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f57',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/57/jeopardi.woff" target="_blank">jeopardi.woff</a></div>
+<div class="card" data-font="f58" data-reg="checking"><div class="preview" style="font-family:'f58',sans-serif">Bitwise <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f58',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/58/bitwise.woff" target="_blank">bitwise.woff</a></div>
+<div class="card" data-font="f59" data-reg="checking"><div class="preview" style="font-family:'f59',sans-serif">7 days <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f59',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/59/7days.woff" target="_blank">7days.woff</a></div>
+<div class="card" data-font="f60" data-reg="checking"><div class="preview" style="font-family:'f60',sans-serif">7 days fat oblique <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f60',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/60/7daysfatoblique.woff" target="_blank">7daysfatoblique.woff</a></div>
+<div class="card" data-font="f61" data-reg="checking"><div class="preview" style="font-family:'f61',sans-serif">7 days fat rotated <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f61',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/61/7daysfatrotated.woff" target="_blank">7daysfatrotated.woff</a></div>
+<div class="card" data-font="f62" data-reg="checking"><div class="preview" style="font-family:'f62',sans-serif">7 days oblique <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f62',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/62/7daysoblique.woff" target="_blank">7daysoblique.woff</a></div>
+<div class="card" data-font="f63" data-reg="checking"><div class="preview" style="font-family:'f63',sans-serif">7 days fat <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f63',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/63/7DAYSFAT.woff" target="_blank">7DAYSFAT.woff</a></div>
+<div class="card" data-font="f64" data-reg="checking"><div class="preview" style="font-family:'f64',sans-serif">7 days rotated <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f64',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/64/7daysrotated.woff" target="_blank">7daysrotated.woff</a></div>
+<div class="card" data-font="f65" data-reg="checking"><div class="preview" style="font-family:'f65',sans-serif">Bob Filled <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f65',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/65/Bob.woff" target="_blank">Bob.woff</a></div>
+<div class="card" data-font="f66" data-reg="checking"><div class="preview" style="font-family:'f66',sans-serif">Telephasic BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f66',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/66/telephas.woff" target="_blank">telephas.woff</a></div>
+<div class="card" data-font="f67" data-reg="checking"><div class="preview" style="font-family:'f67',sans-serif">Wager BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f67',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/67/wager.woff" target="_blank">wager.woff</a></div>
+<div class="card" data-font="f68" data-reg="checking"><div class="preview" style="font-family:'f68',sans-serif">Wager Won BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f68',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/68/wagerwon.woff" target="_blank">wagerwon.woff</a></div>
+<div class="card" data-font="f69" data-reg="checking"><div class="preview" style="font-family:'f69',sans-serif">Wager Lost BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f69',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/69/wagerlos.woff" target="_blank">wagerlos.woff</a></div>
+<div class="card" data-font="f70" data-reg="checking"><div class="preview" style="font-family:'f70',sans-serif">DustHomeMan Medium <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f70',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/70/DustHomeManMedium.woff" target="_blank">DustHomeManMedium.woff</a></div>
+<div class="card" data-font="f71" data-reg="checking"><div class="preview" style="font-family:'f71',sans-serif">Technique BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f71',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/71/techniqu.woff" target="_blank">techniqu.woff</a></div>
+<div class="card" data-font="f72" data-reg="checking"><div class="preview" style="font-family:'f72',sans-serif">Technique OL BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f72',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/72/techniqo.woff" target="_blank">techniqo.woff</a></div>
+<div class="card" data-font="f73" data-reg="checking"><div class="preview" style="font-family:'f73',sans-serif">Doppler <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f73',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/73/Doppler.woff" target="_blank">Doppler.woff</a></div>
+<div class="card" data-font="f74" data-reg="checking"><div class="preview" style="font-family:'f74',sans-serif">Underwhelmed BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f74',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/74/underwhe.woff" target="_blank">underwhe.woff</a></div>
+<div class="card" data-font="f75" data-reg="checking"><div class="preview" style="font-family:'f75',sans-serif">Underwhelmed Outline BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f75',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/75/underwho.woff" target="_blank">underwho.woff</a></div>
+<div class="card" data-font="f76" data-reg="checking"><div class="preview" style="font-family:'f76',sans-serif">Dynamic BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f76',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/76/dynamic.woff" target="_blank">dynamic.woff</a></div>
+<div class="card" data-font="f77" data-reg="checking"><div class="preview" style="font-family:'f77',sans-serif">Sporedom <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f77',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/77/SPOREDOM.woff" target="_blank">SPOREDOM.woff</a></div>
+<div class="card" data-font="f78" data-reg="checking"><div class="preview" style="font-family:'f78',sans-serif">NuWave BV 2.0 <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f78',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/78/NUWAB.woff" target="_blank">NUWAB.woff</a></div>
+<div class="card" data-font="f79" data-reg="checking"><div class="preview" style="font-family:'f79',sans-serif">VanHelsing <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f79',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/79/vanhelsing.woff" target="_blank">vanhelsing.woff</a></div>
+<div class="card" data-font="f80" data-reg="checking"><div class="preview" style="font-family:'f80',sans-serif">Gyrose Shift BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f80',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/80/gyroresh.woff" target="_blank">gyroresh.woff</a></div>
+<div class="card" data-font="f81" data-reg="checking"><div class="preview" style="font-family:'f81',sans-serif">Gyrose BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f81',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/81/gyrose.woff" target="_blank">gyrose.woff</a></div>
+<div class="card" data-font="f82" data-reg="checking"><div class="preview" style="font-family:'f82',sans-serif">Gyrose Squeeze BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f82',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/82/gyrosesq.woff" target="_blank">gyrosesq.woff</a></div>
+<div class="card" data-font="f83" data-reg="checking"><div class="preview" style="font-family:'f83',sans-serif">Vigilance BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f83',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/83/vigilanc.woff" target="_blank">vigilanc.woff</a></div>
+<div class="card" data-font="f84" data-reg="checking"><div class="preview" style="font-family:'f84',sans-serif">Encapsulate Plain BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f84',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/84/encappln.woff" target="_blank">encappln.woff</a></div>
+<div class="card" data-font="f85" data-reg="checking"><div class="preview" style="font-family:'f85',sans-serif">Encapsulate BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f85',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/85/encapsul.woff" target="_blank">encapsul.woff</a></div>
+<div class="card" data-font="f86" data-reg="checking"><div class="preview" style="font-family:'f86',sans-serif">Unanimous BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f86',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/86/unanimo.woff" target="_blank">unanimo.woff</a></div>
+<div class="card" data-font="f87" data-reg="checking"><div class="preview" style="font-family:'f87',sans-serif">Unanimous Inverted BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f87',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/87/unanimoi.woff" target="_blank">unanimoi.woff</a></div>
+<div class="card" data-font="f88" data-reg="checking"><div class="preview" style="font-family:'f88',sans-serif">Construktiv <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f88',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/88/construktiv.woff" target="_blank">construktiv.woff</a></div>
+<div class="card" data-font="f89" data-reg="checking"><div class="preview" style="font-family:'f89',sans-serif">Jawbreaker OL2 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f89',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/89/jawbrko2.woff" target="_blank">jawbrko2.woff</a></div>
+<div class="card" data-font="f90" data-reg="checking"><div class="preview" style="font-family:'f90',sans-serif">Jawbreaker BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f90',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/90/jawbreak.woff" target="_blank">jawbreak.woff</a></div>
+<div class="card" data-font="f91" data-reg="checking"><div class="preview" style="font-family:'f91',sans-serif">Jawbreaker Hard BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f91',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/91/jawbhard.woff" target="_blank">jawbhard.woff</a></div>
+<div class="card" data-font="f92" data-reg="checking"><div class="preview" style="font-family:'f92',sans-serif">Jawbreaker OL1 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f92',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/92/jawbrko1.woff" target="_blank">jawbrko1.woff</a></div>
+<div class="card" data-font="f93" data-reg="checking"><div class="preview" style="font-family:'f93',sans-serif">Chumbly BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f93',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/93/chumbly.woff" target="_blank">chumbly.woff</a></div>
+<div class="card" data-font="f94" data-reg="checking"><div class="preview" style="font-family:'f94',sans-serif">Your Complex BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f94',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/94/yourcomp.woff" target="_blank">yourcomp.woff</a></div>
+<div class="card" data-font="f95" data-reg="checking"><div class="preview" style="font-family:'f95',sans-serif">Your Complex O BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f95',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/95/urcompo.woff" target="_blank">urcompo.woff</a></div>
+<div class="card" data-font="f96" data-reg="checking"><div class="preview" style="font-family:'f96',sans-serif">Your Complex I BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f96',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/96/urcompi.woff" target="_blank">urcompi.woff</a></div>
+<div class="card" data-font="f97" data-reg="checking"><div class="preview" style="font-family:'f97',sans-serif">Bumped BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f97',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/97/bumped.woff" target="_blank">bumped.woff</a></div>
+<div class="card" data-font="f98" data-reg="checking"><div class="preview" style="font-family:'f98',sans-serif">Underscore 2 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f98',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/98/undrscr2.woff" target="_blank">undrscr2.woff</a></div>
+<div class="card" data-font="f99" data-reg="checking"><div class="preview" style="font-family:'f99',sans-serif">Underscore BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f99',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/99/underscr.woff" target="_blank">underscr.woff</a></div>
+<div class="card" data-font="f100" data-reg="checking"><div class="preview" style="font-family:'f100',sans-serif">18 Holes BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f100',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/100/18holes.woff" target="_blank">18holes.woff</a></div>
+<div class="card" data-font="f101" data-reg="checking"><div class="preview" style="font-family:'f101',sans-serif">DB Layer 4 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f101',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/101/dblayer4.woff" target="_blank">dblayer4.woff</a></div>
+<div class="card" data-font="f102" data-reg="checking"><div class="preview" style="font-family:'f102',sans-serif">DB Layer 1 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f102',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/102/dblayer1.woff" target="_blank">dblayer1.woff</a></div>
+<div class="card" data-font="f103" data-reg="checking"><div class="preview" style="font-family:'f103',sans-serif">Double Bogey BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f103',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/103/dblbogey.woff" target="_blank">dblbogey.woff</a></div>
+<div class="card" data-font="f104" data-reg="checking"><div class="preview" style="font-family:'f104',sans-serif">DB Layer 3 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f104',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/104/dblayer3.woff" target="_blank">dblayer3.woff</a></div>
+<div class="card" data-font="f105" data-reg="checking"><div class="preview" style="font-family:'f105',sans-serif">DB Layer 2 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f105',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/105/dblayer2.woff" target="_blank">dblayer2.woff</a></div>
+<div class="card" data-font="f106" data-reg="checking"><div class="preview" style="font-family:'f106',sans-serif">Shift <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f106',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/106/Shift.woff" target="_blank">Shift.woff</a></div>
+<div class="card" data-font="f107" data-reg="checking"><div class="preview" style="font-family:'f107',sans-serif">Copycat <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f107',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/107/CopyCat.woff" target="_blank">CopyCat.woff</a></div>
+<div class="card" data-font="f108" data-reg="checking"><div class="preview" style="font-family:'f108',sans-serif">Syndrome BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f108',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/108/syndrome.woff" target="_blank">syndrome.woff</a></div>
+<div class="card" data-font="f109" data-reg="checking"><div class="preview" style="font-family:'f109',sans-serif">Whatever BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f109',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/109/whatever.woff" target="_blank">whatever.woff</a></div>
+<div class="card" data-font="f110" data-reg="checking"><div class="preview" style="font-family:'f110',sans-serif">Graze BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f110',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/110/graze.woff" target="_blank">graze.woff</a></div>
+<div class="card" data-font="f111" data-reg="checking"><div class="preview" style="font-family:'f111',sans-serif">Galapogos BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f111',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/111/galapogo.woff" target="_blank">galapogo.woff</a></div>
+<div class="card" data-font="f112" data-reg="checking"><div class="preview" style="font-family:'f112',sans-serif">Reason Shadow BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f112',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/112/reasonsh.woff" target="_blank">reasonsh.woff</a></div>
+<div class="card" data-font="f113" data-reg="checking"><div class="preview" style="font-family:'f113',sans-serif">Reason BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f113',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/113/reason.woff" target="_blank">reason.woff</a></div>
+<div class="card" data-font="f114" data-reg="checking"><div class="preview" style="font-family:'f114',sans-serif">Freak Turbulence BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f114',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/114/freaktur.woff" target="_blank">freaktur.woff</a></div>
+<div class="card" data-font="f115" data-reg="checking"><div class="preview" style="font-family:'f115',sans-serif">foton torpedo Fenotype <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f115',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/115/FOTOF.woff" target="_blank">FOTOF.woff</a></div>
+<div class="card" data-font="f116" data-reg="checking"><div class="preview" style="font-family:'f116',sans-serif">Pseudo BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f116',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/116/pseudo.woff" target="_blank">pseudo.woff</a></div>
+<div class="card" data-font="f117" data-reg="checking"><div class="preview" style="font-family:'f117',sans-serif">Typesource Extol S BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f117',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/117/tsextols.woff" target="_blank">tsextols.woff</a></div>
+<div class="card" data-font="f118" data-reg="checking"><div class="preview" style="font-family:'f118',sans-serif">Typesource Extol O BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f118',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/118/tsextolo.woff" target="_blank">tsextolo.woff</a></div>
+<div class="card" data-font="f119" data-reg="checking"><div class="preview" style="font-family:'f119',sans-serif">DustHome Medium <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f119',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/119/DustHomeMedium.woff" target="_blank">DustHomeMedium.woff</a></div>
+<div class="card" data-font="f120" data-reg="checking"><div class="preview" style="font-family:'f120',sans-serif">3D LET (BRK) <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f120',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/120/3dlet.woff" target="_blank">3dlet.woff</a></div>
+<div class="card" data-font="f121" data-reg="checking"><div class="preview" style="font-family:'f121',sans-serif">Crackdown R BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f121',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/121/crkdownr.woff" target="_blank">crkdownr.woff</a></div>
+<div class="card" data-font="f122" data-reg="checking"><div class="preview" style="font-family:'f122',sans-serif">Crackdown O2 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f122',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/122/crkdwno2.woff" target="_blank">crkdwno2.woff</a></div>
+<div class="card" data-font="f123" data-reg="checking"><div class="preview" style="font-family:'f123',sans-serif">Crackdown R2 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f123',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/123/crackdr2.woff" target="_blank">crackdr2.woff</a></div>
+<div class="card" data-font="f124" data-reg="checking"><div class="preview" style="font-family:'f124',sans-serif">Crackdown O1 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f124',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/124/crkdwno1.woff" target="_blank">crkdwno1.woff</a></div>
+<div class="card" data-font="f125" data-reg="checking"><div class="preview" style="font-family:'f125',sans-serif">Rocket Propelled - DGL <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f125',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/125/rockprp.woff" target="_blank">rockprp.woff</a></div>
+<div class="card" data-font="f126" data-reg="checking"><div class="preview" style="font-family:'f126',sans-serif">Konector O1 -BRK- <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f126',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/126/konecto1.woff" target="_blank">konecto1.woff</a></div>
+<div class="card" data-font="f127" data-reg="checking"><div class="preview" style="font-family:'f127',sans-serif">Konector O2 -BRK- <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f127',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/127/konecto2.woff" target="_blank">konecto2.woff</a></div>
+<div class="card" data-font="f128" data-reg="checking"><div class="preview" style="font-family:'f128',sans-serif">Konector -BRK- <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f128',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/128/konector.woff" target="_blank">konector.woff</a></div>
+<div class="card" data-font="f129" data-reg="checking"><div class="preview" style="font-family:'f129',sans-serif">Konector Eerie -BRK- <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f129',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/129/koneerie.woff" target="_blank">koneerie.woff</a></div>
+<div class="card" data-font="f130" data-reg="checking"><div class="preview" style="font-family:'f130',sans-serif">Sequence BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f130',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/130/sequence.woff" target="_blank">sequence.woff</a></div>
+<div class="card" data-font="f131" data-reg="checking"><div class="preview" style="font-family:'f131',sans-serif">Warzone 97 Medium Left <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f131',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/131/Zone99left.woff" target="_blank">Zone99left.woff</a></div>
+<div class="card" data-font="f132" data-reg="checking"><div class="preview" style="font-family:'f132',sans-serif">Warzone97 <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f132',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/132/Zone99.woff" target="_blank">Zone99.woff</a></div>
+<div class="card" data-font="f133" data-reg="checking"><div class="preview" style="font-family:'f133',sans-serif">Zone99 <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f133',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/133/Zone99heavy.woff" target="_blank">Zone99heavy.woff</a></div>
+<div class="card" data-font="f134" data-reg="checking"><div class="preview" style="font-family:'f134',sans-serif">Nominal BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f134',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/134/nominal.woff" target="_blank">nominal.woff</a></div>
+<div class="card" data-font="f135" data-reg="checking"><div class="preview" style="font-family:'f135',sans-serif">Lakmus Fenotype <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f135',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/135/Lakmus.woff" target="_blank">Lakmus.woff</a></div>
+<div class="card" data-font="f136" data-reg="checking"><div class="preview" style="font-family:'f136',sans-serif">Corpulent Caps Shadow BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f136',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/136/ccapshad.woff" target="_blank">ccapshad.woff</a></div>
+<div class="card" data-font="f137" data-reg="checking"><div class="preview" style="font-family:'f137',sans-serif">Corpulent Caps BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f137',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/137/ccaps.woff" target="_blank">ccaps.woff</a></div>
+<div class="card" data-font="f138" data-reg="checking"><div class="preview" style="font-family:'f138',sans-serif">Phino <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f138',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/138/Phino.woff" target="_blank">Phino.woff</a></div>
+<div class="card" data-font="f139" data-reg="checking"><div class="preview" style="font-family:'f139',sans-serif">Blutter <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f139',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/139/blutter.woff" target="_blank">blutter.woff</a></div>
+<div class="card" data-font="f140" data-reg="checking"><div class="preview" style="font-family:'f140',sans-serif">Zoetrope -BRK- <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f140',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/140/zoetrope.woff" target="_blank">zoetrope.woff</a></div>
+<div class="card" data-font="f141" data-reg="checking"><div class="preview" style="font-family:'f141',sans-serif">Detonate BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f141',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/141/detonate.woff" target="_blank">detonate.woff</a></div>
+<div class="card" data-font="f142" data-reg="checking"><div class="preview" style="font-family:'f142',sans-serif">DustDotman Bold <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f142',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/142/DustDotmanBold.woff" target="_blank">DustDotmanBold.woff</a></div>
+<div class="card" data-font="f143" data-reg="checking"><div class="preview" style="font-family:'f143',sans-serif">Yearend BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f143',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/143/yearend.woff" target="_blank">yearend.woff</a></div>
+<div class="card" data-font="f144" data-reg="checking"><div class="preview" style="font-family:'f144',sans-serif">Granular BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f144',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/144/granular.woff" target="_blank">granular.woff</a></div>
+<div class="card" data-font="f145" data-reg="checking"><div class="preview" style="font-family:'f145',sans-serif">Molecular <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f145',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/145/Molecular.woff" target="_blank">Molecular.woff</a></div>
+<div class="card" data-font="f146" data-reg="checking"><div class="preview" style="font-family:'f146',sans-serif">SirQuitry <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f146',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/146/sirquitry.woff" target="_blank">sirquitry.woff</a></div>
+<div class="card" data-font="f147" data-reg="checking"><div class="preview" style="font-family:'f147',sans-serif">Slidfis saftig <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f147',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/147/SLIDFISS.woff" target="_blank">SLIDFISS.woff</a></div>
+<div class="card" data-font="f148" data-reg="checking"><div class="preview" style="font-family:'f148',sans-serif">Slidfis kittlande <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f148',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/148/SLIDFISK.woff" target="_blank">SLIDFISK.woff</a></div>
+<div class="card" data-font="f149" data-reg="checking"><div class="preview" style="font-family:'f149',sans-serif">Slidfis <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f149',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/149/Slidfis.woff" target="_blank">Slidfis.woff</a></div>
+<div class="card" data-font="f150" data-reg="checking"><div class="preview" style="font-family:'f150',sans-serif">Transmaidens Normal <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f150',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/150/Transmaidens.woff" target="_blank">Transmaidens.woff</a></div>
+<div class="card" data-font="f151" data-reg="checking"><div class="preview" style="font-family:'f151',sans-serif">Kinkimono <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f151',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/151/kinkimono.woff" target="_blank">kinkimono.woff</a></div>
+<div class="card" data-font="f152" data-reg="checking"><div class="preview" style="font-family:'f152',sans-serif">Block Tilt BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f152',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/152/bloktilt.woff" target="_blank">bloktilt.woff</a></div>
+<div class="card" data-font="f153" data-reg="checking"><div class="preview" style="font-family:'f153',sans-serif">Revert BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f153',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/153/revert.woff" target="_blank">revert.woff</a></div>
+<div class="card" data-font="f154" data-reg="checking"><div class="preview" style="font-family:'f154',sans-serif">Revert Round BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f154',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/154/revertro.woff" target="_blank">revertro.woff</a></div>
+<div class="card" data-font="f155" data-reg="checking"><div class="preview" style="font-family:'f155',sans-serif">Kickflip BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f155',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/155/kickflip.woff" target="_blank">kickflip.woff</a></div>
+<div class="card" data-font="f156" data-reg="checking"><div class="preview" style="font-family:'f156',sans-serif">Action Force Normal <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f156',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/156/ActionForce.woff" target="_blank">ActionForce.woff</a></div>
+<div class="card" data-font="f157" data-reg="checking"><div class="preview" style="font-family:'f157',sans-serif">Rotund BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f157',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/157/rotund.woff" target="_blank">rotund.woff</a></div>
+<div class="card" data-font="f158" data-reg="checking"><div class="preview" style="font-family:'f158',sans-serif">Rotund Outline BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f158',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/158/rotundo.woff" target="_blank">rotundo.woff</a></div>
+<div class="card" data-font="f159" data-reg="checking"><div class="preview" style="font-family:'f159',sans-serif">PixelNoise <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f159',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/159/PixelNoiseerc2007.woff" target="_blank">PixelNoiseerc2007.woff</a></div>
+<div class="card" data-font="f160" data-reg="checking"><div class="preview" style="font-family:'f160',sans-serif">Blabla <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f160',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/160/Spinach.woff" target="_blank">Spinach.woff</a></div>
+<div class="card" data-font="f161" data-reg="checking"><div class="preview" style="font-family:'f161',sans-serif">Year 2000 Replicant <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f161',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/161/YEARR.woff" target="_blank">YEARR.woff</a></div>
+<div class="card" data-font="f162" data-reg="checking"><div class="preview" style="font-family:'f162',sans-serif">Yesterday BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f162',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/162/yesterda.woff" target="_blank">yesterda.woff</a></div>
+<div class="card" data-font="f163" data-reg="checking"><div class="preview" style="font-family:'f163',sans-serif">Base6 <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f163',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/163/base6.woff" target="_blank">base6.woff</a></div>
+<div class="card" data-font="f164" data-reg="checking"><div class="preview" style="font-family:'f164',sans-serif">Base5 <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f164',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/164/base5.woff" target="_blank">base5.woff</a></div>
+<div class="card" data-font="f165" data-reg="checking"><div class="preview" style="font-family:'f165',sans-serif">Base4 <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f165',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/165/base4.woff" target="_blank">base4.woff</a></div>
+<div class="card" data-font="f166" data-reg="checking"><div class="preview" style="font-family:'f166',sans-serif">Letters <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f166',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/166/LETTERS.woff" target="_blank">LETTERS.woff</a></div>
+<div class="card" data-font="f167" data-reg="checking"><div class="preview" style="font-family:'f167',sans-serif">Letters II Fenotype <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f167',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/167/LETTIF.woff" target="_blank">LETTIF.woff</a></div>
+<div class="card" data-font="f168" data-reg="checking"><div class="preview" style="font-family:'f168',sans-serif">Futured <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f168',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/168/Futured.woff" target="_blank">Futured.woff</a></div>
+<div class="card" data-font="f169" data-reg="checking"><div class="preview" style="font-family:'f169',sans-serif">Vertigo BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f169',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/169/vertigo.woff" target="_blank">vertigo.woff</a></div>
+<div class="card" data-font="f170" data-reg="checking"><div class="preview" style="font-family:'f170',sans-serif">Vertigo 2 BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f170',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/170/vertigo2.woff" target="_blank">vertigo2.woff</a></div>
+<div class="card" data-font="f171" data-reg="checking"><div class="preview" style="font-family:'f171',sans-serif">Plexifont BV <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f171',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/171/PLEXB.woff" target="_blank">PLEXB.woff</a></div>
+<div class="card" data-font="f172" data-reg="checking"><div class="preview" style="font-family:'f172',sans-serif">Nanosecond Thin BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f172',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/172/nsecthin.woff" target="_blank">nsecthin.woff</a></div>
+<div class="card" data-font="f173" data-reg="checking"><div class="preview" style="font-family:'f173',sans-serif">Nanosecond Wide BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f173',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/173/nanosecw.woff" target="_blank">nanosecw.woff</a></div>
+<div class="card" data-font="f174" data-reg="checking"><div class="preview" style="font-family:'f174',sans-serif">Nanosecond Thick BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f174',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/174/nsecthck.woff" target="_blank">nsecthck.woff</a></div>
+<div class="card" data-font="f175" data-reg="checking"><div class="preview" style="font-family:'f175',sans-serif">Ventilate AOE <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f175',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/175/VENTA.woff" target="_blank">VENTA.woff</a></div>
+<div class="card" data-font="f177" data-reg="checking"><div class="preview" style="font-family:'f177',sans-serif">Opiated BRK <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f177',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/177/opiated.woff" target="_blank">opiated.woff</a></div>
+<div class="card" data-font="f1097" data-reg="checking"><div class="preview" style="font-family:'f1097',sans-serif">CircleD <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f1097',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/1097/CircleDFontbyCrazyForMusic.woff" target="_blank">CircleDFontbyCrazyForMusic.woff</a></div>
+<div class="card" data-font="f1422" data-reg="checking"><div class="preview" style="font-family:'f1422',sans-serif">Franchise Bold <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f1422',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/1422/FranchiseBold.woff" target="_blank">FranchiseBold.woff</a></div>
+<div class="card" data-font="f3453" data-reg="checking"><div class="preview" style="font-family:'f3453',sans-serif">Dosis Regular <span class="badge badge-checking">…</span></div><div class="reg-preview" style="font-family:'f3453',sans-serif" data-regpreview></div><a class="url" href="https://fontsforweb.com/fonts/3453/xIAtSaglM8LZOYdGmG1JqQ.woff" target="_blank">xIAtSaglM8LZOYdGmG1JqQ.woff</a></div>
+</div>
+
+<script>
+// ® detection via triple-fallback width comparison.
+//
+// Key insight: if a custom font HAS the ® glyph, then
+//   "font, Arial"      → uses font's own ®  → width W
+//   "font, Times"      → uses font's own ®  → width W  (same)
+//   "font, Courier"    → uses font's own ®  → width W  (same)
+//
+// If the custom font LACKS ®, each stack falls back to a different
+// system font (Arial ≠ Times ≠ Courier), widths diverge → no match.
+//
+// No canvas pixel reading → no CORS issue.
+
+const probe = document.createElement('span');
+Object.assign(probe.style, {
+  position:'fixed', top:'-9999px', left:'-9999px',
+  fontSize:'80px', whiteSpace:'nowrap', lineHeight:'1',
+  visibility:'hidden', pointerEvents:'none'
+});
+document.body.appendChild(probe);
+
+function mw(text, stack) {
+  probe.textContent = text;
+  probe.style.fontFamily = stack;
+  return probe.offsetWidth;
+}
+
+let checked = 0, hasReg = 0, noReg = 0;
+const cards  = document.querySelectorAll('.card[data-font]');
+const total  = cards.length;
+let currentFilter = 'all';
+
+function updateCounts() {
+  document.getElementById('cnt-all').textContent = total;
+  document.getElementById('cnt-yes').textContent = hasReg;
+  document.getElementById('cnt-no').textContent  = noReg;
+  document.getElementById('progress').textContent =
+    checked < total
+      ? `Checking ${checked}/${total}…`
+      : `Done — ${hasReg} have ®, ${noReg} do not`;
+}
+
+async function checkCard(card) {
+  const f      = card.dataset.font;
+  const badge  = card.querySelector('.badge');
+  const regDiv = card.querySelector('[data-regpreview]');
+
+  // Wait for font to load (or bail after 5s)
+  try {
+    await Promise.race([
+      document.fonts.load(`80px "${f}"`),
+      new Promise(r => setTimeout(r, 5000))
+    ]);
+  } catch(e) {}
+
+  const s1 = `"${f}", Arial, sans-serif`;
+  const s2 = `"${f}", "Times New Roman", serif`;
+  const s3 = `"${f}", "Courier New", monospace`;
+
+  // ── step 1: confirm font actually loaded ──────────────────────────────────
+  // Latin letters (guaranteed in all three fallbacks) should give same width
+  // only when the custom font is rendering them.
+  const loaded = Math.abs(mw('ABCDEFGH', s1) - mw('ABCDEFGH', s2)) < 2;
+
+  // ── step 2: test ® ────────────────────────────────────────────────────────
+  const r1 = mw('®', s1);
+  const r2 = mw('®', s2);
+  const r3 = mw('®', s3);
+  // All three same → custom font rendered it (has ®)
+  // Any diverge    → fell back to different system fonts (no ®)
+  const hasIt = loaded && Math.abs(r1 - r2) < 2 && Math.abs(r1 - r3) < 2;
+
+  if (!loaded) {
+    card.dataset.reg = 'err';
+    badge.className  = 'badge badge-err';
+    badge.textContent = '⚠ load fail';
+    regDiv.style.display = 'none';
+  } else if (hasIt) {
+    card.dataset.reg  = 'yes';
+    badge.className   = 'badge badge-yes';
+    badge.textContent = '® ✓';
+    regDiv.textContent = '®';
+    hasReg++;
+  } else {
+    card.dataset.reg  = 'no';
+    badge.className   = 'badge badge-no';
+    badge.textContent = 'no ®';
+    regDiv.style.display = 'none';
+    noReg++;
+  }
+
+  checked++;
+  updateCounts();
+  applyFilter(currentFilter);
+}
+
+function filter(type) {
+  currentFilter = type;
+  document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  applyFilter(type);
+}
+
+function applyFilter(type) {
+  cards.forEach(card => {
+    const reg  = card.dataset.reg;
+    const show = type === 'all'
+      || (type === 'yes' && reg === 'yes')
+      || (type === 'no'  && (reg === 'no' || reg === 'err' || reg === 'checking'));
+    card.classList.toggle('hidden', !show);
+  });
+}
+
+async function runAll() {
+  const arr   = Array.from(cards);
+  const BATCH = 5;
+  for (let i = 0; i < arr.length; i += BATCH) {
+    await Promise.all(arr.slice(i, i + BATCH).map(checkCard));
+    await new Promise(r => setTimeout(r, 40));
+  }
+  probe.remove();
+}
+
+updateCounts();
+runAll();
+</script>
+</body>
+</html>
