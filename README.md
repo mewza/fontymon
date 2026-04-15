@@ -9,12 +9,12 @@ the font itself, open "font_showcase_reg.html" to check which fonts support
 them.
 
 Example produced ShaderToy/GLSL by fontmymon.py script are available here:
-https://www.shadertoy.com/view/scsSRM
-https://www.shadertoy.com/view/scsSRN
-https://www.shadertoy.com/view/fcsSRj
-https://www.shadertoy.com/view/fclXR2
-https://www.shadertoy.com/view/sfsXzj
-https://www.shadertoy.com/view/7fXSz2
+https://www.shadertoy.com/view/scsSRM<br>
+https://www.shadertoy.com/view/scsSRN<br>
+https://www.shadertoy.com/view/fcsSRj<br>
+https://www.shadertoy.com/view/fclXR2<br>
+https://www.shadertoy.com/view/sfsXzj<br>
+https://www.shadertoy.com/view/7fXSz2<br>
 
 Example commands:
 
@@ -42,9 +42,14 @@ Dmitry Boldyrev
 Email: subband@gmail.com or
        subband@protonmail.com
 
+Donations accepted via PayPal: subband@protonmail.com
+
 I am not rich monetarily (honest, and as of today yet at least) and would appreciate a donation of any amount you can
 afford if you feel like supporting me and this project, I spent my own money and time making this perfect
 for you! Big THANK YOU from me if you decide to do so, but if not, enjoy using it anyway.
+
+
+
 
 
 
